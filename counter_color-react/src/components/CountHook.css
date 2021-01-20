@@ -1,0 +1,22 @@
+.container {
+  width: 200px;
+  margin: 200px auto;
+}
+
+.heading {
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+._btn {
+  font-size: 25px;
+  font-family: sans-serif;
+  border: 1px solid black;
+  border-radius: 0 10px 0 10px;
+  cursor: pointer;
+  outline: none;
+}
