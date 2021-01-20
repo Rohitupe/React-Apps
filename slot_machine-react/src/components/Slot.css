@@ -1,0 +1,31 @@
+.heading__style {
+  margin: 0 auto;
+  width: 80%;
+  background-color: aquamarine;
+  height: 50px;
+}
+
+.slot__machine {
+  border: 1px solid black;
+  width: 60%;
+  margin: 70px auto;
+}
+
+@media (max-width: 768px) {
+  .slot__machine {
+    margin-top: 70px;
+    width: 100%;
+    border: none;
+  }
+  .heading__style {
+    width: 100%;
+    background-color: brown;
+  }
+}
+
+@media (max-width: 500px) {
+  .heading__style {
+    padding-top: 25px;
+    font-size: medium;
+  }
+}
